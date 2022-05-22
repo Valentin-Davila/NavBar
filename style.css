@@ -107,3 +107,25 @@ height: 80%;
         border-radius: 15px;
         box-shadow: 2px 3px 4px black;
     }
+    @media (max-width: 450px) {
+        .hero {
+          flex-direction: column;
+          height: 100%;
+          padding: 0 20px;
+          margin: 0 auto;
+          width: 100%;
+        }
+      
+        .hero-text {
+          align-items: center;
+        }
+      
+        .hero-text p {
+          max-width: 400px;
+          text-align: center;
+          /* background-color: red; */
+        }
+        .dcd {
+          width: 90%;
+        }
+      }
