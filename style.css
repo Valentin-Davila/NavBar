@@ -39,15 +39,12 @@ height: 80%;
     
 }
 /* NAVBAR LISTO */
+
 .container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.container:hover{
-    transform: scale(101%);
-    transition-duration: 0.5s;
-    
 }
 .hero {
     display: flex;
@@ -60,6 +57,10 @@ height: 80%;
     background: rgba(207, 207, 207, 0.61);
     border-radius: 10px;
 } 
+.hero:hover{
+    transform: scale(101%);
+    transition-duration: 0.5s;
+}
 .hero-text {
     display: flex;
     flex-direction: column;
@@ -73,9 +74,6 @@ height: 80%;
     justify-content: center;
     font-weight: 700;
     font-size: 2rem;
-    /* border: 2px solid slategrey; */
-    /* box-shadow: 2px 3px 4px black; */
-    /* border-radius: 5px; */
 }
 
 
@@ -91,7 +89,6 @@ height: 80%;
     .btn {
         border: 2px solid slategrey;
         color: slategray;
-        /* background-color: rgb(239, 251, 255); */
         box-shadow: 2px 3px 4px black;
         padding: 1rem 1.3rem;
         border-radius: 8px;
@@ -107,6 +104,30 @@ height: 80%;
         border-radius: 15px;
         box-shadow: 2px 3px 4px black;
     }
+    .parrafo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        width: auto;
+    }
+    .parrafo li {
+        list-style: none;
+        padding: 3px;
+    }
+    .servicios{
+        display: flex;
+        flex-direction: column;
+        padding: 25px 40px;
+        width: 100vh;
+        background: rgba(207, 207, 207, 0.61);;
+        border-radius: 10px;
+    }
+.servicios:hover{
+    transform: scale(101%);
+    transition-duration: 0.5s;
+}
+
     @media (max-width: 450px) {
         .hero {
           flex-direction: column;
