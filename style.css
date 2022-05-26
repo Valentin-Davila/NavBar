@@ -8,6 +8,7 @@
 }
 body{
     font-family: "Poppins", sans-serif;
+    /* background:white; */
 
 }
 .logo{
@@ -45,6 +46,7 @@ height: 80%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 70px;
 }
 .hero {
     display: flex;
@@ -73,7 +75,7 @@ height: 80%;
     width: 300px;
     justify-content: center;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 
@@ -106,47 +108,33 @@ height: 80%;
     }
     .parrafo{
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         height: 40vh;
         width: auto;
+        margin-right: 120px;
+        margin-bottom: 100px;
     }
     .parrafo li {
         list-style: none;
-        padding: 3px;
+        padding: 5px;
+        /* margin: 50px; */
     }
     .servicios{
         display: flex;
         flex-direction: column;
         padding: 25px 40px;
         width: 100vh;
-        background: rgba(207, 207, 207, 0.61);;
+        background: rgba(207, 207, 207, 0.61);
         border-radius: 10px;
     }
 .servicios:hover{
     transform: scale(101%);
     transition-duration: 0.5s;
 }
-
-    @media (max-width: 450px) {
-        .hero {
-          flex-direction: column;
-          height: 100%;
-          padding: 0 20px;
-          margin: 0 auto;
-          width: 100%;
-        }
-      
-        .hero-text {
-          align-items: center;
-        }
-      
-        .hero-text p {
-          max-width: 400px;
-          text-align: center;
-          /* background-color: red; */
-        }
-        .dcd {
-          width: 90%;
-        }
-      }
+.intro{
+    margin-bottom: 20px;
+    font-size: 1rem;
+    /* box-shadow: 0px 2px 2px rgb(160, 160, 160); */
+    border-radius: 15px;
+}
