@@ -31,10 +31,12 @@ height: 80%;
     
 }
 .nav-link{
-    color: bisque;
+    color: white;
+    font-size: 1.2rem;
+    /* font-weight:unset; */
 }
 .nav-link:hover{
-    color: slategrey;
+    color: rgba(207, 207, 207, 0.61);
     transform: scale(105%);
     transition-duration: 0.3s;
     
@@ -58,6 +60,7 @@ height: 80%;
     gap: 5rem;
     background: rgba(207, 207, 207, 0.61);
     border-radius: 10px;
+    box-shadow: 2px 3px 4px black;
 } 
 .hero:hover{
     transform: scale(101%);
@@ -106,35 +109,68 @@ height: 80%;
         border-radius: 15px;
         box-shadow: 2px 3px 4px black;
     }
-    .parrafo{
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        height: 40vh;
-        width: auto;
-        margin-right: 120px;
-        margin-bottom: 100px;
+    .dcd:hover{
+        transform: scale(101%);
+        transition-duration: 0.5s;
     }
-    .parrafo li {
-        list-style: none;
-        padding: 5px;
-        /* margin: 50px; */
+    .caja{
+/* background: red; */
+display: flex;
     }
-    .servicios{
+    .caja2{
+        /* background: blue; */
         display: flex;
         flex-direction: column;
-        padding: 25px 40px;
-        width: 100vh;
+        justify-content: center;
+        /* align-items: center; */
+        margin: 50px 115px;
+        padding: 20px;
+        /* width: 170vh; */
+        gap: 3rem;
         background: rgba(207, 207, 207, 0.61);
         border-radius: 10px;
+        box-shadow: 2px 3px 4px black;
     }
-.servicios:hover{
-    transform: scale(101%);
-    transition-duration: 0.5s;
-}
-.intro{
-    margin-bottom: 20px;
-    font-size: 1rem;
-    /* box-shadow: 0px 2px 2px rgb(160, 160, 160); */
-    border-radius: 15px;
-}
+    .caja2:hover{
+        transform: scale(101%);
+        transition-duration: 0.5s;
+    }
+    .caja2 h2{
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+        width: 800px;
+        font-weight: 400;
+        font-size: 1.5rem;
+        /* padding-bottom: 20px; */
+        /* background: beige; */
+    }
+    .listimg{
+        /* background: bisque; */
+        display: flex;
+        gap: 5rem;
+        
+    }
+    .lista{
+        list-style: none;
+        /* padding: 20px; */
+        gap: 15px;
+    }
+    .caja2 ul{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        /* background: beige; */
+    }
+
+    .img{
+        display: flex;
+        width: 400px;
+        /* height: 100px; */
+        border-radius: 15px;
+        box-shadow: 2px 3px 4px black;
+    }
+    .img:hover{
+        transform: scale(101%);
+        transition-duration: 0.5s;
+    }
